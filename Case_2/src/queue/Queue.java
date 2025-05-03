@@ -1,3 +1,5 @@
+package queue;
+
 class Queue {
   private Node front, rear;
   private int size;

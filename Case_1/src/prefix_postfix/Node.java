@@ -1,8 +1,10 @@
+package prefix_postfix;
+
 public class Node {
-  int data;
+  String data;
   Node next;
 
-  public Node(int data) {
+  public Node(String data) {
     this.data = data;
     this.next = null;
   }
